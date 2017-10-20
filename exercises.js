@@ -63,7 +63,11 @@ console.log(sum)
  * Invoke the function and assign it to a variable named `difference`.
  * Console.log `difference` to test your code.
 */ 
-
+function subtract(num1,num2) {
+	return num1-num2;
+}
+var difference = subtract(10,8)
+console.log(difference)
 
 
 /*
@@ -79,10 +83,13 @@ console.log(sum)
  * Invoke the function and assign it to a variable named `product`.
  * Console.log `product` to test your code.
 */
-
-
-
+function multiply(num1,num2) {
+	return num1*num2;
+}
+var product = multiply(2,5)
+console.log(product)
 /*
+
  * #5
  * Function - divide
  * Create a function named `divide` which will take two parameters: `num1` and `num2`.
@@ -95,8 +102,11 @@ console.log(sum)
  * Invoke the function and assign it to a variable named `quotient`.
  * Console.log `quotient` to test your code.
 */
-
-
+function divide(num1,num2) {
+	return num1/num2;
+}
+var quotient = divide(10,5)
+console.log(quotient) 
 
 /*
  * #6
