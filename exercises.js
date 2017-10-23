@@ -196,7 +196,7 @@ var bango3 = 9;
 var bango4 = 6;
 var bango5 = 3;
 function addThenSubtract(num1,num2,num3) {
-	return (num1+num2)-num3
+	return add(num1,num2) - num3
 }
 console.log(addThenSubtract(bango3,bango4,bango5))
 
@@ -232,9 +232,9 @@ console.log(multiplyThenDivide(bango3,bango4,bango5))
 */
 
 function createFullName(firstName,lastName) {
-	return "firstName" + " lastName"
+	return firstName + lastName
 }
-var myFullName = createFullName("Laron","Gibson") 
+var myFullName = createFullName("Laron"," Gibson") 
 console.log(myFullName)
 /*
  * #13 
@@ -249,8 +249,10 @@ console.log(myFullName)
  * This function will use the previous `createFullName` function above to create a message. For example, if you invoked the function like this: eatFood("Biggie", "Smalls", "Won Ton Soup"); it will display the message "Biggie Smalls eats Won Ton Soup everyday for breakfast."
  * Console.log your result.
  */
-
-
+function eatFood(firstName,lastName,food) {
+  return myFullName + " eats" + food + " every night for dinner."
+}
+console.log(eatFood("laron", "Gibson", " pizza"))
 
 /************** ENGAGE HYPERDRIVE **************/
 /* No more training wheels! For the exercises #14-18, use the experience you've
@@ -264,8 +266,10 @@ console.log(myFullName)
  * Create a function that will take in a parameter named `inches`. This function will convert inches to centimeters(cm).
  * Console.log your result. 
 */
-
-
+function shoeSize(inches) {
+  return inches + "in" + " to centimeters is " + inches * 2.54 + "cm"
+}
+console.log(shoeSize(5)) 
 
 /*
  * #15
