@@ -45,7 +45,7 @@ var bango2 = 5;
  * Console.log `sum` to test your code.
 */
 function add(num1,num2) {
-  return num1+num2;
+  return num1 + num2;
 }
 var sum = add(bango1,bango2);
 console.log(sum);
@@ -64,7 +64,7 @@ console.log(sum);
  * Console.log `difference` to test your code.
 */ 
 function subtract(num1,num2) {
-	return num1-num2;
+	return num1 - num2;
 }
 var difference = subtract(bango1,bango2);
 console.log(difference);
@@ -84,7 +84,7 @@ console.log(difference);
  * Console.log `product` to test your code.
 */
 function multiply(num1,num2) {
-	return num1*num2;
+	return num1 * num2;
 }
 var product = multiply(bango1,bango2);
 console.log(product);
@@ -103,7 +103,7 @@ console.log(product);
  * Console.log `quotient` to test your code.
 */
 function divide(num1,num2) {
-	return num1/num2;
+	return num1 / num2;
 }
 var quotient = divide(bango1,bango2);
 console.log(quotient);
@@ -120,7 +120,7 @@ console.log(quotient);
  * Console.log your result.
 */
 function checkSum(x) {
-  return "Mariah Carey has been married " + x + " amount of times."
+  return "Mariah Carey has been married " + x + " amount of times.";
 }
 /*var x = sum;*/
 console.log(checkSum(sum));
@@ -138,7 +138,7 @@ console.log(checkSum(sum));
  * Console.log your results.
 */ 
 function checkDifference(x) {
-  return "Last night I drempt that I ate " + x + " Taco Bell soft tacos."
+  return "Last night I drempt that I ate " + x + " Taco Bell soft tacos.";
 }
 console.log(checkDifference(difference));
 
@@ -153,7 +153,7 @@ console.log(checkDifference(difference));
  * Console.log your result.  
 */
 function checkProduct() {
-  return sum*product
+  return sum * product;
 }
 console.log(checkProduct());
 
@@ -168,7 +168,7 @@ console.log(checkProduct());
  * Console.log your result.  
 */
 function checkQuotient() {
-  return product*quotient
+  return product * quotient;
 }
 console.log(checkQuotient());
 
@@ -196,9 +196,9 @@ var bango3 = 9;
 var bango4 = 6;
 var bango5 = 3;
 function addThenSubtract(num1,num2,num3) {
-	return add(num1,num2) - num3
+	return (num1 + num2) - num3;
 }
-console.log(addThenSubtract(bango3,bango4,bango5))
+console.log(addThenSubtract(bango3,bango4,bango5));
 
 /*
  * #11
@@ -214,9 +214,9 @@ console.log(addThenSubtract(bango3,bango4,bango5))
  * Console.log your result.
 */ 
 function multiplyThenDivide(num1,num2,num3) {
-	return (num1*num2)/num3
+	return (num1*num2)/num3;
 }
-console.log(multiplyThenDivide(bango3,bango4,bango5))
+console.log(multiplyThenDivide(bango3,bango4,bango5));
 
 
 /*
@@ -232,10 +232,10 @@ console.log(multiplyThenDivide(bango3,bango4,bango5))
 */
 
 function createFullName(firstName,lastName) {
-	return firstName + lastName
+	return firstName + lastName;
 }
-var myFullName = createFullName("Laron"," Gibson") 
-console.log(myFullName)
+var myFullName = createFullName("Laron"," Gibson");
+console.log(myFullName);
 /*
  * #13 
  * Function - eatFood
@@ -250,9 +250,9 @@ console.log(myFullName)
  * Console.log your result.
  */
 function eatFood(firstName,lastName,food) {
-  return myFullName + " eats" + food + " every night for dinner."
+  return firstName + lastName + " eats" + food + " every night for dinner.";
 }
-console.log(eatFood("laron", "Gibson", " pizza"))
+console.log(eatFood("laron ", "Gibson", " pizza"));
 
 /************** ENGAGE HYPERDRIVE **************/
 /* No more training wheels! For the exercises #14-18, use the experience you've
@@ -267,9 +267,9 @@ console.log(eatFood("laron", "Gibson", " pizza"))
  * Console.log your result. 
 */
 function shoeSize(inches) {
-  return inches + "in" + " to centimeters is " + inches * 2.54 + "cm"
+  return inches + "in" + " to centimeters is " + inches * 2.54 + "cm";
 }
-console.log(shoeSize(5)) 
+console.log(shoeSize(9));
 
 /*
  * #15
@@ -280,9 +280,10 @@ console.log(shoeSize(5))
  * Example input: "believe you can and you're halfway there."
  * Example output: "BELIEVE YOU CAN AND YOU'RE HALFWAY THERE."
 */
- 
-
-
+function allCaps(str) {
+  return str.toUpperCase();
+}
+console.log(allCaps("turn this sentence into all caps!"));
 /*
  * #16
  * Function oneCap
@@ -291,6 +292,15 @@ console.log(shoeSize(5))
  * Console.log your result.
 */
 
+function oneCap(str) {
+  return str.
+}
+console.log(oneCap("turn this sentence into all caps!"))
+
+
+hello
+01234
+charAt(0).toUpperCase
 
 
 /*
