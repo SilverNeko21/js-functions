@@ -293,14 +293,11 @@ console.log(allCaps("turn this sentence into all caps!"));
 */
 
 function oneCap(str) {
-  return str.
+  return str.charAt(0).toUpperCase() + str.slice(1);
 }
-console.log(oneCap("turn this sentence into all caps!"))
+console.log(oneCap("turn this sentence into all caps!"));
 
 
-hello
-01234
-charAt(0).toUpperCase
 
 
 /*
@@ -314,7 +311,11 @@ charAt(0).toUpperCase
  * Store the return value to a variable named `canDrink`. Console.log your result.
  */
 
-
+function verifyDrinkingAge(age) {
+	return "Age " + age + " = " + Boolean(age > 21);
+} 
+var canDrink = verifyDrinkingAge(17);
+console.log(canDrink);
 
 /**
  * #18
@@ -323,6 +324,16 @@ charAt(0).toUpperCase
  */
 
 
+function throwParty() {
+	if(canDrink === "Age 17 = true"){
+		return "Chee Hoo! We going to da party!";
+	}
+ 	if(canDrink === "Age 17 = false"){
+ 		return "Meh, see you at Starbucks";
+ 	}
+}
+var canParty = canDrink
+console.log(throwParty())
 
 
 
